@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body{
+    background-color: #c6a6b0;
+    color: #f9c2af;
+}
+
+header {
+    background-color: #333129;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#title {
+    position: fixed;
+    background-color: #333129;
+    top: 0;
+    padding: 15px;
+    z-index: 1;
+    font-family: 'Cinzel', serif;
+}
+
+
+.form-sec {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+#title {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    color: #f9c2af;
+    font-weight: 400;
+}
+
+input[type=text], [type=email]{
+    width: 100%;
+}
+
+#phone{
+    width: 100%
+}
+
+.img-thumbnail{
+    width: 500px;
+    height: 500px;
+    border: unset;
+    padding: 0;
+    margin-right: 100px;
+    margin-top: 0;
+
+}
+
+.display-4 {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+@-webkit-keyframes uparrow {
+    0% { -webkit-transform: translateY(0); opacity: 0.4 }
+    100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+  }
+  @-webkit-keyframes downarrow {
+    0% { -webkit-transform: translateY(0); opacity: 0.4 }
+    100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+  }
+  
+  .container {
+    background-image: url('http://www.placekitten.com/g/1000/1000');
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+  }
+
+  #carouselExample {
+    width: 49%;
+    margin: auto;
+  }
+
+.container-lg {
+    width: 50%;
+}
+  
+@media only screen and (max-width: 800px) {
+    #carouselExample {
+        width: 100%;
+        margin: auto;
+      }
+    
+    .container-lg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #carouselExample {
+        width: 100%;
+        margin: auto;
+      }
+    
+    .container-lg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #carouselExample {
+        width: 100%;
+        margin: auto;
+      }
+    
+    .container-lg {
+        width: 100%;
+    }
+}
